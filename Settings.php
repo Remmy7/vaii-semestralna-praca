@@ -51,16 +51,17 @@ if ($_REQUEST['LOGOUT']) {
     <form method="post" enctype="application/x-www-form-urlencoded">
         <div class="center-page">
             <div class="mb-5">
-                <label for="email" class="form-label">Email</label>
+                <label for="mail" class="form-label">Email</label>
                 <input type="email" class="form-control" id="mail" name="mail">
             </div>
             <input type="submit" value="ZMENA EMAILU" class="btn btn-primary" name="ZMENAMAILU" id = "ZMENAMAILU">
             <input type="submit" value="VYMAŽ POUŽÍVATEĽA" class="btn btn-primary" name="DELETEUSER">
             <input type="submit" value="LOGOUT" name="LOGOUT" class="btn btn-primary">
-            <div class="mb-1" style="font-style: oblique; font-size: 30px" >
+            <div class="mb-1" style="font-style: oblique; font-size: 30px">
             <?php echo $error; ?>
             </div>
         </div>
+    </form>
     <footer class="row fixed-bottom" >
         <p>Author: Tibor Michalov <a href="mailto:michalov1@stud.uniza.sk">michalov1@stud.uniza.sk</a></p>
         <!--<p><a href="mailto:michalov1@stud.uniza.sk">michalov1@stud.uniza.sk</a></p>-->

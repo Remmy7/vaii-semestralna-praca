@@ -37,29 +37,30 @@ if ($_REQUEST['REGISTER']) {
             </div>
         </div>
         <form method="post" enctype="application/x-www-form-urlencoded">
-        <div class="center-page">
-            <div class="mb-3">
-                <label for="exampleInputUsername" class="form-label">Username</label>
-                <input type="text" class="form-control" id="exampleInputUsername" name="username" required minlength="6">
+            <div class="center-page">
+                <div class="mb-3">
+                    <label for="exampleInputUsername" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="exampleInputUsername" name="username" required minlength="6">
+                </div>
+                <div class="mb-1">
+                    <label for="passwordStrength" class="form-label">Password</label>
+                    <input type="password" onkeydown="jsSilaHeslaBarUpdate()" id="passwordStrength" class="form-control" name="password" required minlength="6">
+                </div>
+                <div id = "barSila" style="width: 80%; height: 30px"></div>
+                <div class="mb-1">
+                    <label for="repeatPassword" class="form-label" >Repeat password</label>
+                    <input type="password"  class="form-control" id="repeatPassword" name="repeatPassword" required minlength="6">
+                </div>
+                <div class="mb-1">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@gmail.com" name="email">
+                </div>
+                <input type="submit" value="REGISTER" class="btn btn-primary" name="REGISTER">
+                <div class="mb-1" style="font-style: oblique; font-size: 30px" >
+                    <?php echo $error; ?>
+                </div>
             </div>
-            <div class="mb-1">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" onkeydown="jsSilaHeslaBarUpdate()" id="passwordStrength" class="form-control" name="password" required minlength="6">
-            </div>
-            <div id = "barSila" style="width: 80%; height: 30px"></div>
-            <div class="mb-1">
-                <label for="exampleInputPassword2" class="form-label" >Repeat password</label>
-                <input type="password"  class="form-control" id="exampleInputPassword2" name="repeatPassword" required minlength="6">
-            </div>
-            <div class="mb-1">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="email@gmail.com" name="email">
-            </div>
-            <input type="submit" value="REGISTER" class="btn btn-primary" name="REGISTER">
-            <div class="mb-1" style="font-style: oblique; font-size: 30px" >
-                <?php echo $error; ?>
-            </div>
-        </div>
+        </form>
 
 
         <footer class="row fixed-bottom" >
