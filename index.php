@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link href="css.css" rel="stylesheet" type="text/css">
+    <link href="css/css.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
@@ -17,16 +19,16 @@
         <div class="container overflow-hidden">
             <div class="row g-2">
                 <div class="col-6 col-md-3 text-center">
-                    <a href="Login.html" class="btn btn-primary w-100" role="button">Login</a>
+                    <a href="Login.php" class="btn btn-primary w-100" role="button">Login</a>
                 </div>
                 <div class="col-6 col-md-3 text-center">
-                    <a href="Leaderboard.html" class="btn btn-primary w-100" role="button">Leaderboard</a>
+                    <a href="Leaderboard.php" class="btn btn-primary w-100" role="button">Leaderboard</a>
                 </div>
                 <div class="col-6 col-md-3 text-center">
-                    <a href="Forums.html" class="btn btn-primary w-100" role="button">Forums</a>
+                    <a href="Forums.php" class="btn btn-primary w-100" role="button">Forums</a>
                 </div>
                 <div class="col-6 col-md-3 text-center">
-                    <a href="Settings.html" class="btn btn-primary w-100" role="button">Settings</a>
+                    <a href="Settings.php" class="btn btn-primary w-100" role="button">Settings</a>
                 </div>
             </div>
 
@@ -55,7 +57,5 @@
         </footer>
 
     </div>
-
-
 </body>
 </html>
