@@ -39,7 +39,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div style="background-color: darkred; color: yellow; opacity: 0.9;">
+                    <div style="background-color: #6076da; color: #ffffff; opacity: 0.9;">
                     <p id="textAreaForArticle">This text was made possible by skillshare. Get your 3 month free trial over at at skillshare.com/uniza. </p>
                 </div>
                 </div>
@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="col-12 col-md-9 col-xl-5">
                     <label for="textAreaForTyperacer"></label>
-                    <textarea id="textAreaForTyperacer" rows="3" placeholder="Write what you see above over here!"></textarea>
+                    <textarea id="textAreaForTyperacer" rows="3"  placeholder="Write what you see above over here!" style="resize: none"></textarea>
                 </div>
             </div>
         </div>

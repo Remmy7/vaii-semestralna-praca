@@ -38,12 +38,12 @@
     height: 100vh;
 }
 div#pozadieHlavnaStranka {
-    background: url("https://wallpaperaccess.com/full/2126190.png");
+    background: url("https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1380&t=st=1668768777~exp=1668769377~hmac=5f9784a6a3ccd88e747435adb09b96f1c0da5faced50db3be022d034a2183bdf");
     background-repeat: no-repeat;
     background-size: cover;
 }
 div#pozadieLogin {
-    background: url("https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2FtaW5nJTIwa2V5Ym9hcmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+    background: url("https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1380&t=st=1668768777~exp=1668769377~hmac=5f9784a6a3ccd88e747435adb09b96f1c0da5faced50db3be022d034a2183bdf");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -54,17 +54,17 @@ div#pozadieLeaderboard {
     background-size: cover;
 }
 div#pozadieForums {
-    background: url("https://hdwallsource.com/img/2014/8/keyboard-wallpaper-hd-38999-39895-hd-wallpapers.jpg");
+    background: url("https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1380&t=st=1668768777~exp=1668769377~hmac=5f9784a6a3ccd88e747435adb09b96f1c0da5faced50db3be022d034a2183bdf");
     background-repeat: no-repeat;
     background-size: cover;
 }
 div#pozadieRegister {
-    background:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/25705add-4207-4dea-9d32-07e250e0abf1/di0dq0-42050a0c-4ddc-4b83-836d-8885fb9ee892.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI1NzA1YWRkLTQyMDctNGRlYS05ZDMyLTA3ZTI1MGUwYWJmMVwvZGkwZHEwLTQyMDUwYTBjLTRkZGMtNGI4My04MzZkLTg4ODVmYjllZTg5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WAV8UcbVOv8C7-zZFrvPRYNIrdL2F9hh57ZV2s09RIY");
+    background: url("https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1380&t=st=1668768777~exp=1668769377~hmac=5f9784a6a3ccd88e747435adb09b96f1c0da5faced50db3be022d034a2183bdf");
     background-repeat: no-repeat;
     background-size: cover;
 }
 div#pozadieSettings {
-    background: url("https://wallpapercave.com/wp/wp4947485.jpg");
+    background: url("https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1380&t=st=1668768777~exp=1668769377~hmac=5f9784a6a3ccd88e747435adb09b96f1c0da5faced50db3be022d034a2183bdf");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -85,15 +85,15 @@ div#pozadieSettings {
     bottom: 5px;
 }
 .mb-1 {
-    color: red;
+    color: #ffffff;
     font-weight: bold;
 }
 .mb-3 {
-    color: red;
+    color: #ffffff;
     font-weight: bold;
 }
 .mb-5 {
-    color: red;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -112,7 +112,7 @@ tbody tr:nth-child(3) {
 
 #textMainPage {
     font-weight: bold;
-    color: sienna;
+    color: #050100;
     font-size: 30px;
     background: lightblue;
     opacity: 0.9;

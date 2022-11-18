@@ -55,8 +55,8 @@ if ($_REQUEST['LOGOUT']) {
                 <input type="email" class="form-control" id="mail" name="mail">
             </div>
             <input type="submit" value="ZMENA EMAILU" class="btn btn-primary" name="ZMENAMAILU" id = "ZMENAMAILU">
-            <input type="submit" value="VYMAŽ POUŽÍVATEĽA" class="btn btn-warning" name="DELETEUSER">
-            <input type="submit" value="LOGOUT" name="LOGOUT" class="btn btn-warning">
+            <input type="submit" value="VYMAŽ POUŽÍVATEĽA" class="btn btn-primary" name="DELETEUSER">
+            <input type="submit" value="LOGOUT" name="LOGOUT" class="btn btn-primary">
             <div class="mb-1" style="font-style: oblique; font-size: 30px" >
             <?php echo $error; ?>
             </div>
